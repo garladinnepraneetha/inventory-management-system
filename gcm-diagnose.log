@@ -1,0 +1,165 @@
+﻿Diagnose log at 2026-06-02T14:06:51Z
+
+AppPath: C:\Program Files\Git\mingw64\bin\git-credential-manager.exe
+InstallDir: C:\Program Files\Git\mingw64\bin\
+Version: 2.7.0+d1dd8a4ded75a2b1faae653157ac1699609442ad
+
+------------
+Diagnostic: Environment
+Skipped: False
+Success: True
+Exception: None
+Log:
+OSType: Windows
+OSVersion: 10.0 (build 26200)
+Reading environment variables... OK
+ Variables:
+SystemDrive=C:
+ProgramFiles(x86)=C:\Program Files (x86)
+MSYSTEM=MINGW64
+ProgramW6432=C:\Program Files
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 140 Stepping 2, GenuineIntel
+TMP=C:\Users\prane\AppData\Local\Temp
+PROCESSOR_ARCHITECTURE=AMD64
+VSCODE_GIT_ASKPASS_MAIN=c:\Users\prane\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\493597c785d4c5cb\askpass-main.js
+Path=C:/Program Files/Git/mingw64/libexec/git-core;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\prane\bin;c:\Users\prane\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\debugCommand;c:\Users\prane\AppData\Roaming\Code\User\globalStorage\github.copilot-chat\copilotCli;C:\Users\prane\AppData\Local\Programs\Microsoft VS Code;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\Users\prane\.local\bin;C:\Users\prane\AppData\Local\Microsoft\WindowsApps;C:\Users\prane\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Users\prane\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\prane\AppData\Roaming\npm
+VSCODE_GIT_IPC_HANDLE=\\.\pipe\vscode-git-35f198f592-sock
+PROCESSOR_REVISION=8c02
+TEMP=C:\Users\prane\AppData\Local\Temp
+USERPROFILE=C:\Users\prane
+LOGONSERVER=\\LENOVO
+TERM=xterm-256color
+USERNAME=prane
+SystemRoot=C:\Windows
+CHROME_CRASHPAD_PIPE_NAME=\\.\pipe\crashpad_3460_ZJEJPNVHRDRDNPLO
+GIT_EXEC_PATH=C:/Program Files/Git/mingw64/libexec/git-core
+PLINK_PROTOCOL=ssh
+OneDrive=C:\Users\prane\OneDrive
+USERDOMAIN_ROAMINGPROFILE=LENOVO
+CommonProgramFiles=C:\Program Files\Common Files
+ZES_ENABLE_SYSMAN=1
+VSCODE_PYTHON_AUTOACTIVATE_GUARD=1
+ProgramData=C:\ProgramData
+LANG=en_US.UTF-8
+GIT_ASKPASS=c:\Users\prane\AppData\Roaming\Code\User\globalStorage\vscode.git\askpass\493597c785d4c5cb\askpass.sh
+HOMEPATH=\Users\prane
+IGCCSVC_DB=AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAA5DWPCNFiGkmtyNvT2/N8RQQAAAACAAAAAAAQZgAAAAEAACAAAAD6EkDgfErjEK6Zl2NL3yRku93TmuS4bBy2Q/aFenMi5AAAAAAOgAAAAAIAACAAAAB8upYq9gyl9R3UYWrGFZ4Ri3Uv0FUhaPAHt/ceS4D+yWAAAABHMgiJL40U+LzTXfounGmpQz+HtquQto4YHEFDvo+L37bu0HEou1kaE5oWPHg7uufVXlg3yLuH7dxEYiGBRMkZQs6D+Un/GSbrblVGWujJyYdIQZ/bMe04OQcJHfOHxxpAAAAAfMjiYIUO9F0+DB1MnFa+sLHskQwbwY2ryLAA0SCaGzsHZG5LfhgA+aeHcV7d8bccDe5Z0DfV8VXfDhZNMyjmlQ==
+COMPUTERNAME=LENOVO
+VSCODE_INJECTION=1
+ALLUSERSPROFILE=C:\ProgramData
+CommonProgramW6432=C:\Program Files\Common Files
+EFC_12052_4126798990=1
+SESSIONNAME=Console
+DriverData=C:\Windows\System32\Drivers\DriverData
+HOMEDRIVE=C:
+windir=C:\Windows
+GIT_TRACE2_PARENT_SID=45f87fba-d54d-45fd-ba05-ccc54a838882
+VSCODE_GIT_ASKPASS_NODE=C:\Users\prane\AppData\Local\Programs\Microsoft VS Code\Code.exe
+NUMBER_OF_PROCESSORS=8
+OS=Windows_NT
+EFC_12052_1592913036=1
+ProgramFiles=C:\Program Files
+ComSpec=C:\Windows\system32\cmd.exe
+PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+HOME=C:\Users\prane
+PSModulePath=C:\Users\prane\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+TMPDIR=C:\Users\prane\AppData\Local\Temp
+APPDATA=C:\Users\prane\AppData\Roaming
+USERDOMAIN=LENOVO
+PROCESSOR_LEVEL=6
+LOCALAPPDATA=C:\Users\prane\AppData\Local
+TERM_PROGRAM_VERSION=1.118.1
+CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+OneDriveConsumer=C:\Users\prane\OneDrive
+COLORTERM=truecolor
+PUBLIC=C:\Users\Public
+TERM_PROGRAM=vscode
+VSCODE_GIT_ASKPASS_EXTRA_ARGS=
+
+
+------------
+Diagnostic: File system
+Skipped: False
+Success: True
+Exception: None
+Log:
+Temporary directory is 'C:\Users\prane\AppData\Local\Temp\'...
+Checking basic file I/O...
+Writing to temporary file 'C:\Users\prane\AppData\Local\Temp\bc65453394d87a53718550be'... OK
+Reading from temporary file 'C:\Users\prane\AppData\Local\Temp\bc65453394d87a53718550be'... OK
+Deleting temporary file 'C:\Users\prane\AppData\Local\Temp\bc65453394d87a53718550be'... OK
+Testing IFileSystem instance...
+UserHomePath: C:\Users\prane
+UserDataDirectoryPath: C:\Users\prane\.gcm
+GetCurrentDirectory(): C:\Users\prane\OneDrive\Desktop\Inventory Management System
+
+------------
+Diagnostic: Networking
+Skipped: False
+Success: False
+Exception:
+System.Net.Http.HttpRequestException: An error occurred while sending the request. ---> System.Net.WebException: The remote name could not be resolved: 'example.com'
+   at System.Net.HttpWebRequest.EndGetResponse(IAsyncResult asyncResult)
+   at System.Net.Http.HttpClientHandler.GetResponseCallback(IAsyncResult ar)
+   --- End of inner exception stack trace ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitCredentialManager.Diagnostics.NetworkingDiagnostic.<RunInternalAsync>d__4.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at GitCredentialManager.Diagnostics.Diagnostic.<RunAsync>d__6.MoveNext()
+Log:
+Checking networking and HTTP stack...
+Creating HTTP client... OK
+IsNetworkAvailable: True
+Sending HEAD request to http://example.com...Sending HEAD request to https://example.com... warning: HEAD request failed
+Sending HEAD request to http://httpforever.com...
+------------
+Diagnostic: Git
+Skipped: False
+Success: True
+Exception: None
+Log:
+Getting Git version... OK
+Git version is '2.53.0.windows.1'
+Locating current repository...Git repository at 'C:/Users/prane/OneDrive/Desktop/Inventory Management System/.git'
+ OK
+Listing all Git configuration... OK
+Git configuration:
+file:C:/Program Files/Git/etc/gitconfig	diff.astextplain.textconv=astextplain
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.clean=git-lfs clean -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.smudge=git-lfs smudge -- %f
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.process=git-lfs filter-process
+file:C:/Program Files/Git/etc/gitconfig	filter.lfs.required=true
+file:C:/Program Files/Git/etc/gitconfig	http.sslbackend=schannel
+file:C:/Program Files/Git/etc/gitconfig	core.autocrlf=true
+file:C:/Program Files/Git/etc/gitconfig	core.fscache=true
+file:C:/Program Files/Git/etc/gitconfig	core.symlinks=false
+file:C:/Program Files/Git/etc/gitconfig	pull.rebase=false
+file:C:/Program Files/Git/etc/gitconfig	credential.helper=manager
+file:C:/Program Files/Git/etc/gitconfig	credential.https://dev.azure.com.usehttppath=true
+file:C:/Program Files/Git/etc/gitconfig	init.defaultbranch=master
+file:C:/Users/prane/.gitconfig	user.name=PraneethaGarladinne
+file:C:/Users/prane/.gitconfig	user.email=praneethagarladinne@metavaratechnologies.com
+file:.git/config	core.repositoryformatversion=0
+file:.git/config	core.filemode=false
+file:.git/config	core.bare=false
+file:.git/config	core.logallrefupdates=true
+file:.git/config	core.symlinks=false
+file:.git/config	core.ignorecase=true
+file:.git/config	remote.origin.url=https://github.com/garladinnepraneetha/inventory-management-system.git
+file:.git/config	remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+
+
+------------
+Diagnostic: Credential storage
+Skipped: False
+Success: True
+Exception: None
+Log:
+ICredentialStore instance is of type: CredentialStore
+Writing test credential... OK
+Reading test credential... OK
+Deleting test credential... OK
+
