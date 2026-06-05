@@ -1,38 +1,27 @@
-import { useEffect, useState } from "react";
-import api from "../../src/services/api";
+import api from "../services/api";
 
-function Products() {
-  const [products, setProducts] = useState([]);
-
-  useEffect(() => {
-    fetchProducts();
-  }, []);
-
-  const fetchProducts = async () => {
-    const response = await api.get("/products");
-    setProducts(response.data);
-  };
+function Products({ products, fetchProducts }) {
 
   const deleteProduct = async (id) => {
-  await api.delete(`/products/${id}`);
-  fetchProducts();
-};
+    await api.delete(`/products/${id}`);
+    fetchProducts();
+  };
 
-const updateProduct = async (product) => {
-  const name = prompt("Enter Product Name", product.name);
-  const sku = prompt("Enter SKU", product.sku);
-  const price = prompt("Enter Price", product.price);
-  const stock = prompt("Enter Stock", product.stock_quantity);
+  const updateProduct = async (product) => {
+    const name = prompt("Enter Product Name", product.name);
+    const sku = prompt("Enter SKU", product.sku);
+    const price = prompt("Enter Price", product.price);
+    const stock = prompt("Enter Stock", product.stock_quantity);
 
-  await api.put(`/products/${product.id}`, {
-    name,
-    sku,
-    price: Number(price),
-    stock_quantity: Number(stock),
-  });
+    await api.put(`/products/${product.id}`, {
+      name,
+      sku,
+      price: Number(price),
+      stock_quantity: Number(stock),
+    });
 
-  fetchProducts();
-};
+    fetchProducts();
+  };
 
   return (
     <div>
@@ -54,27 +43,23 @@ const updateProduct = async (product) => {
         <tbody>
           {products.map((product) => (
             <tr key={product.id}>
-            <td>{product.id}</td>
-            <td>{product.name}</td>
-            <td>{product.sku}</td>
-            <td>{product.price}</td>
-            <td>{product.stock_quantity}</td>
+              <td>{product.id}</td>
+              <td>{product.name}</td>
+              <td>{product.sku}</td>
+              <td>{product.price}</td>
+              <td>{product.stock_quantity}</td>
 
-            <td>
-                <button
-                onClick={() => deleteProduct(product.id)}
-                >
-                Delete
+              <td>
+                <button onClick={() => deleteProduct(product.id)}>
+                  Delete
                 </button>
-            </td>
+              </td>
 
-            <td>
-            <button
-                onClick={() => updateProduct(product)}
-            >
-                Update
-            </button>
-            </td>
+              <td>
+                <button onClick={() => updateProduct(product)}>
+                  Update
+                </button>
+              </td>
             </tr>
           ))}
         </tbody>

@@ -1,7 +1,7 @@
 import { useState } from "react";
 import api from "../services/api";
 
-function AddOrder() {
+function AddOrder({ fetchOrders }) {
   const [customerId, setCustomerId] = useState("");
   const [productId, setProductId] = useState("");
   const [quantity, setQuantity] = useState("");
@@ -14,7 +14,7 @@ function AddOrder() {
       product_id: Number(productId),
       quantity: Number(quantity),
     });
-
+    fetchOrders();
     alert("Order Created");
 
     setCustomerId("");

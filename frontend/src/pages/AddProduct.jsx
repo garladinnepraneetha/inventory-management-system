@@ -1,7 +1,7 @@
 import { useState } from "react";
 import api from "../services/api";
 
-function AddProduct() {
+function AddProduct({ fetchProducts })  {
   const [name, setName] = useState("");
   const [sku, setSku] = useState("");
   const [price, setPrice] = useState("");
@@ -16,6 +16,7 @@ function AddProduct() {
       price: Number(price),
       stock_quantity: Number(stock),
     });
+    fetchProducts();
 
     alert("Product Added");
 

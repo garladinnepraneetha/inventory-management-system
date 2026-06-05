@@ -1,21 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../services/api";
 
-function Customers() {
-  const [customers, setCustomers] = useState([]);
-
-  useEffect(() => {
-    fetchCustomers();
-  }, []);
-
-  const fetchCustomers = async () => {
-    try {
-      const response = await api.get("/customers");
-      setCustomers(response.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+function Customers({ customers, fetchCustomers }) {
 
   return (
     <div>

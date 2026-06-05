@@ -1,21 +1,7 @@
 import { useEffect, useState } from "react";
 import api from "../services/api";
 
-function Orders() {
-  const [orders, setOrders] = useState([]);
-
-  useEffect(() => {
-    fetchOrders();
-  }, []);
-
-  const fetchOrders = async () => {
-    try {
-      const response = await api.get("/orders");
-      setOrders(response.data);
-    } catch (error) {
-      console.error(error);
-    }
-  };
+function Orders({ orders, fetchOrders }) {
 
   return (
     <div>

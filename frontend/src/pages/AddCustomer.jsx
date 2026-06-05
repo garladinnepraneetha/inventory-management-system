@@ -1,7 +1,7 @@
 import { useState } from "react";
 import api from "../services/api";
 
-function AddCustomer() {
+function AddCustomer({ fetchCustomers }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
@@ -14,7 +14,7 @@ function AddCustomer() {
       email,
       phone,
     });
-
+    fetchCustomers();
     alert("Customer Added");
 
     setName("");
