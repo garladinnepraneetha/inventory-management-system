@@ -1,7 +1,13 @@
-venv/
+backend/venv/
+frontend/node_modules/
+
 __pycache__/
+*.pyc
+
+backend/inventory.db
+
 .env
-node_modules/
+
 .vscode/
 dist/
 build/

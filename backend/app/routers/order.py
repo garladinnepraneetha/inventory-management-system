@@ -76,7 +76,5 @@ def create_order(
     }
 
 @router.get("/orders")
-def get_orders(
-    db: Session = Depends(get_db)
-):
+def get_orders(db: Session = Depends(get_db)):
     return db.query(Order).all()
